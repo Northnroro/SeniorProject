@@ -7,6 +7,8 @@ public class Signal {
 	private ArrayList<Float[]> signal = new ArrayList<Float[]>();// Time(s)
 																	// Signal0..N(mV)
 	private float signalMax[], signalMin[];// SignalAll(mV) Signal0..N(mV)
-	
-	
+
+	public Signal(File signalFile) {
+		this.signalFile = signalFile;
+	}
 }
